@@ -1,0 +1,347 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.root__color_softGreen {
+  border-color: #ffffff00;
+}
+.root:focus-within {
+  outline: none;
+}
+.root_____focusVisibleWithin {
+  outline: none;
+}
+.trigger {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 8px 12px;
+  border: 1px solid #dbdbd7;
+}
+.trigger__color_softPink {
+  background: #feeef8;
+  border-color: #ffffff00;
+}
+.trigger__color_softPurple {
+  background: #f9f1fe;
+  border-color: #ffffff00;
+}
+.trigger__color_softGray {
+  background: #f3f3f2;
+}
+.trigger__color_clear {
+  background: none;
+}
+.trigger__isOpen {
+  background: #e9e9e6;
+}
+.trigger__color_softBlue {
+  background: #edf6ff;
+  border-color: #ffffff00;
+}
+.trigger__color_softCyan {
+  background: #e7f9fb;
+  border-color: #ffffff00;
+}
+.trigger__color_softGreen {
+  background: #e9f9ee;
+  border-color: #ffffff00;
+}
+.trigger__color_softYellow {
+  background: #fffbd1;
+  border-color: #ffffff00;
+}
+.trigger__color_softOrange {
+  background: #fff1e7;
+  border-color: #ffffff00;
+}
+.trigger__color_softRed {
+  background: #ffefef;
+  border-color: #ffffff00;
+}
+.root:focus-within .trigger {
+  pointer-events: none;
+  box-shadow: 0px 0px 0px 3px #96c7f2;
+  outline: none;
+}
+.root .trigger_____focusVisibleWithin {
+  pointer-events: none;
+  box-shadow: 0px 0px 0px 3px #96c7f2;
+  outline: none;
+}
+.root .trigger:hover {
+  background: #eeeeec;
+}
+.root__color_softPink .trigger__color_softPink:hover {
+  background: #fce5f3;
+}
+.root__color_softPurple .trigger__color_softPurple:hover {
+  background: #f3e7fc;
+}
+.root__color_softBlue .trigger__color_softBlue:hover {
+  background: #e1f0ff;
+}
+.root__color_softCyan .trigger__color_softCyan:hover {
+  background: #d8f3f6;
+}
+.root__color_softGreen .trigger__color_softGreen:hover {
+  background: #ddf3e4;
+}
+.root__color_softYellow .trigger__color_softYellow:hover {
+  background: #fff8bb;
+}
+.root__color_softOrange .trigger__color_softOrange:hover {
+  background: #ffe8d7;
+}
+.root__color_softRed .trigger__color_softRed:hover {
+  background: #ffe6e2;
+}
+.root .trigger:active {
+  background: #e9e9e6;
+}
+.root__color_softPink .trigger__color_softPink:active {
+  background: #f9d8ec;
+}
+.root__color_softPurple .trigger__color_softPurple:active {
+  background: #eddbf9;
+}
+.root__color_softBlue .trigger__color_softBlue:active {
+  background: #cee7fe;
+}
+.root__color_softCyan .trigger__color_softCyan:active {
+  background: #c4eaef;
+}
+.root__color_softGreen .trigger__color_softGreen:active {
+  background: #ccebd7;
+}
+.root__color_softYellow .trigger__color_softYellow:active {
+  background: #fef2a4;
+}
+.root__color_softOrange .trigger__color_softOrange:active {
+  background: #ffdcc3;
+}
+.root__color_softRed .trigger__color_softRed:active {
+  background: #fdd8d3;
+}
+.contentContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+}
+.root:focus-within .contentContainer {
+  outline: none;
+}
+.slotTargetSelectedContent {
+  white-space: pre;
+}
+.slotTargetSelectedContent > .__wab_text,
+.slotTargetSelectedContent > .__wab_slot-string-wrapper,
+.slotTargetSelectedContent > .__wab_slot > .__wab_text,
+.slotTargetSelectedContent > .__wab_slot > .__wab_slot-string-wrapper,
+.slotTargetSelectedContent > .__wab_slot > .__wab_slot > .__wab_text,
+.slotTargetSelectedContent
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot-string-wrapper,
+.slotTargetSelectedContent
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_text,
+.slotTargetSelectedContent
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot-string-wrapper {
+  text-overflow: ellipsis;
+}
+.slotTargetSelectedContent > *,
+.slotTargetSelectedContent > .__wab_slot > *,
+.slotTargetSelectedContent > .__wab_slot > .__wab_slot > *,
+.slotTargetSelectedContent > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetSelectedContent > picture > img,
+.slotTargetSelectedContent > .__wab_slot > picture > img,
+.slotTargetSelectedContent > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetSelectedContent
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  overflow: hidden;
+}
+.slotTargetSelectedContent__color_softPink {
+  color: #cd1d8d;
+}
+.slotTargetSelectedContent__color_softPurple {
+  color: #793aaf;
+}
+.slotTargetSelectedContent__color_softBlue {
+  color: #006adc;
+}
+.slotTargetSelectedContent__color_softCyan {
+  color: #0c7792;
+}
+.slotTargetSelectedContent__color_softGreen {
+  color: #18794e;
+}
+.slotTargetSelectedContent__color_softYellow {
+  color: #946800;
+}
+.slotTargetSelectedContent__color_softOrange {
+  color: #bd4b00;
+}
+.slotTargetSelectedContent__color_softRed {
+  color: #cd2b31;
+}
+.root:focus-within .slotTargetSelectedContent > *,
+.root:focus-within .slotTargetSelectedContent > .__wab_slot > *,
+.root:focus-within .slotTargetSelectedContent > .__wab_slot > .__wab_slot > *,
+.root:focus-within
+  .slotTargetSelectedContent
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root:focus-within .slotTargetSelectedContent > picture > img,
+.root:focus-within .slotTargetSelectedContent > .__wab_slot > picture > img,
+.root:focus-within
+  .slotTargetSelectedContent
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img,
+.root:focus-within
+  .slotTargetSelectedContent
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  outline: none;
+}
+.slotTargetPlaceholder {
+  white-space: pre;
+  color: #706f6c;
+}
+.slotTargetPlaceholder > .__wab_text,
+.slotTargetPlaceholder > .__wab_slot-string-wrapper,
+.slotTargetPlaceholder > .__wab_slot > .__wab_text,
+.slotTargetPlaceholder > .__wab_slot > .__wab_slot-string-wrapper,
+.slotTargetPlaceholder > .__wab_slot > .__wab_slot > .__wab_text,
+.slotTargetPlaceholder > .__wab_slot > .__wab_slot > .__wab_slot-string-wrapper,
+.slotTargetPlaceholder > .__wab_slot > .__wab_slot > .__wab_slot > .__wab_text,
+.slotTargetPlaceholder
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot-string-wrapper {
+  text-overflow: ellipsis;
+}
+.slotTargetPlaceholder > *,
+.slotTargetPlaceholder > .__wab_slot > *,
+.slotTargetPlaceholder > .__wab_slot > .__wab_slot > *,
+.slotTargetPlaceholder > .__wab_slot > .__wab_slot > .__wab_slot > *,
+.slotTargetPlaceholder > picture > img,
+.slotTargetPlaceholder > .__wab_slot > picture > img,
+.slotTargetPlaceholder > .__wab_slot > .__wab_slot > picture > img,
+.slotTargetPlaceholder
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > picture
+  > img {
+  overflow: hidden;
+}
+.slotTargetPlaceholder__showPlaceholder_color_softRed {
+  color: #cd2b31;
+}
+.slotTargetPlaceholder__showPlaceholder_color_softPink {
+  color: #cd1d8d;
+}
+.slotTargetPlaceholder__color_softPurple_showPlaceholder {
+  color: #793aaf;
+}
+.slotTargetPlaceholder__showPlaceholder_color_softBlue {
+  color: #006adc;
+}
+.slotTargetPlaceholder__showPlaceholder_color_softCyan {
+  color: #0c7792;
+}
+.slotTargetPlaceholder__showPlaceholder_color_softGreen {
+  color: #18794e;
+}
+.slotTargetPlaceholder__showPlaceholder_color_softYellow {
+  color: #946800;
+}
+.slotTargetPlaceholder__showPlaceholder_color_softOrange {
+  color: #bd4b00;
+}
+.dropdownIcon {
+  position: relative;
+  object-fit: cover;
+  width: 20px;
+  height: 20px;
+  color: #333333;
+  flex-shrink: 0;
+}
+.dropdownIcon__color_softPink {
+  color: #d6409f;
+}
+.dropdownIcon__color_softPurple {
+  color: #8e4ec6;
+}
+.dropdownIcon__color_softBlue {
+  color: #0091ff;
+}
+.dropdownIcon__color_softCyan {
+  color: #05a2c2;
+}
+.dropdownIcon__color_softGreen {
+  color: #30a46c;
+}
+.dropdownIcon__color_softYellow {
+  color: #f5d90a;
+}
+.dropdownIcon__color_softOrange {
+  color: #f76808;
+}
+.dropdownIcon__color_softRed {
+  color: #e5484d;
+}
+.root:focus-within .dropdownIcon {
+  outline: none;
+}
+.root .dropdownIcon_____focusVisibleWithin {
+  outline: none;
+}
+.overlay:global(.__wab_instance) {
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  z-index: 1000;
+}
+.optionsContainer {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.option__sklqX:global(.__wab_instance) {
+  position: relative;
+}
+.option__c5R7T:global(.__wab_instance) {
+  position: relative;
+}
